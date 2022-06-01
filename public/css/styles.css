@@ -45,6 +45,7 @@ p{
 .icon:hover{
   color: #ff4c68;
 }
+
 /* Navigation Bar */
 
 .navbar{
@@ -60,13 +61,14 @@ p{
 .nav-link{
   font-size: 1.2rem;
 }
+
 /* Download buttons */
 
 .download-button{
   margin: 5% 3% 5% 0;
 }
 
-/* title-image */
+/* title image */
 
 .title-image{
   width: 60%;
@@ -106,6 +108,7 @@ p{
 .carousel-item{
   padding: 7% 15%;
 }
+
 /* Press Secion */
 
 #press{
@@ -118,6 +121,8 @@ p{
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+/* Pricing Section */
 
 #pricing{
   padding: 7% 10%;
@@ -134,12 +139,15 @@ p{
   padding: 3% 5%;
 }
 
+
 #cta{
   padding: 5% 20%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.945);
   color: #fff;
 }
+
+/* Footer */
 
 #footer{
   text-align: center;
@@ -149,6 +157,9 @@ p{
 .footer-image{
   padding: 3% 2%;
 }
+
+
+/* Media Queries */
 
 @media (max-width: 992px) {
   #title{
