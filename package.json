@@ -1,0 +1,18 @@
+{
+  "name": "assignment1-haridinesh",
+  "version": "1.0.0",
+  "description": "One stop for bikers needs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "hari",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
