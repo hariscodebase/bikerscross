@@ -4,6 +4,7 @@
   "description": "One stop for bikers needs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon ./index.js"
   },
   "author": "hari",
