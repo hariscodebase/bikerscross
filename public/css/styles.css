@@ -34,7 +34,7 @@ p{
   padding: 3% 15% 7%;
 }
 .top-opacity {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.664);
 }
 
 .icon{
@@ -60,6 +60,15 @@ p{
 
 .nav-link{
   font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  border-radius: 6px;
+}
+
+.nav-item:hover {
+  background-color: #000000b2;
 }
 
 /* Download buttons */
@@ -155,6 +164,7 @@ p{
 }
 
 .footer-image{
+  font-size: 32px;
   padding: 3% 2%;
 }
 
