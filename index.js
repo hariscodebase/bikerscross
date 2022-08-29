@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const port = process.env.port || 5000; //set a port number
+const port = process.env.PORT || 5000; //set a port number
 
 app.set("views", path.join(__dirname, "views")); //set express views 
 app.set("view engine", "ejs");
@@ -25,6 +25,6 @@ app.get("/gallery", (req, res) => {
 
 
 //setup server listen
-app.listen(process.env.port || 5000, () => {
-    //console.log(`Listening on http://localhost:${port}`);
+app.listen(port || 5000, () => {
+    console.log(`Listening on http://localhost:${port}`);
 })
